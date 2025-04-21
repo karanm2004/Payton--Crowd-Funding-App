@@ -31,7 +31,7 @@ Payton is a simple, full-stack crowdfunding platform where creators can showcase
 ```bash
 git clone https://github.com/yourusername/payton.git
 cd payton
-
+```
 
 ### 2. Install Dependencies
 
@@ -39,17 +39,31 @@ Install the required npm packages:
 
 ```bash
 npm install
+```
 
 ### 3. Set Environment Variables
 
 Create a `.env.local` file in the root directory and add the following environment variables:
 
 ```bash
-MONGODB_URI=your_mongodb_uri
-NEXTAUTH_SECRET=your_random_secret
+GITHUB_ID=your_GitHub_id
+GITHUB_SECRET=your_GitHub_secret
+NEXT_PUBLIC_KEY_ID=
+KEY_SECRET=your_razorpay_client_key
+NEXT_PUBLIC_URL=http://localhost:3000
 NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
+
+## 4. Start the Development Server
+
+Run the development server using the following command:
+
+```bash
+npm run dev
+```
 
 
 
