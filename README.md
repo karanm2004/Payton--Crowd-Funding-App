@@ -28,8 +28,10 @@ Payton is a simple, full-stack crowdfunding platform where creators can showcase
 
 ### 1. Clone the Repo
 
+```bash
 git clone https://github.com/yourusername/payton.git
 cd payton
+
 
 ### 2. Install Dependencies
 
@@ -37,5 +39,17 @@ Install the required npm packages:
 
 ```bash
 npm install
+
+### 3. Set Environment Variables
+
+Create a `.env.local` file in the root directory and add the following environment variables:
+
+```bash
+MONGODB_URI=your_mongodb_uri
+NEXTAUTH_SECRET=your_random_secret
+NEXTAUTH_URL=http://localhost:3000
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
 
 
