@@ -24,5 +24,18 @@ Payton is a simple, full-stack crowdfunding platform where creators can showcase
 - **Auth**: NextAuth.js (Google Provider)
 - **Payments**: Razorpay
 
-## Folder Structure
+## Getting Started Locally
+
+### 1. Clone the Repo
+
+git clone https://github.com/yourusername/payton.git
+cd payton
+
+### 2. Install Dependencies
+
+Install the required npm packages:
+
+```bash
+npm install
+
 
